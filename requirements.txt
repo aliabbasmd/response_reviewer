@@ -1,0 +1,19 @@
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+scikit-learn
+imblearn
+shap
+statsmodels
+EOFcat << 'EOF' > requirements.txt
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+scikit-learn
+imblearn
+shap
+statsmodels

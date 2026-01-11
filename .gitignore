@@ -1,0 +1,5 @@
+# Ignore heavy HTML and Notebook files over 100MB
+samples/*.html
+samples/synthetic jan 29 2025.ipynb
+.cache/
+__pycache__/
