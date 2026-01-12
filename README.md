@@ -50,5 +50,7 @@ This table describes the clinical variables utilized in the T5-assisted analysis
 | **outcome** | Label | Heart Disease Diagnosis | Presence (1-4) or Absence (0) |
 
 
+The analysis files and worked-out examples for the UCI (University of California Irvine) heart disease dataset are located in the `/uci` folder. This directory includes both the interactive research notebooks (.ipynb) and static reports (.html).
+
 ## Dataset Information
 The analysis files and worked-out examples for the UCI (University of California Irvine) heart disease dataset are located in the `/uci` folder. This directory includes both the interactive research notebooks (.ipynb) and static reports (.html).
