@@ -27,8 +27,28 @@ For reviewers who wish to inspect the final outputs without running the entire 3
 **Author:** Abbas S Ali MD MS FACC  
 **Contact:** [ali@aliorg.info](mailto:ali@aliorg.info)
 
-## Dataset Information
-The analysis files for the UCI (University of California Irvine) dataset are located in the /uci folder.
+
+
+## Data Dictionary (UCI Heart Disease Dataset)
+This table describes the clinical variables utilized in the T5-assisted analysis and traditional ML pipelines.
+
+| Variable | Type | Description | Mapping / Units |
+| :--- | :--- | :--- | :--- |
+| **age** | Continuous | Patient age | Years |
+| **sex** | Categorical | Biological sex | 1: male, 0: female |
+| **cp** | Categorical | Chest pain type | 1: typical, 2: atypical, 3: non-anginal, 4: asymptomatic |
+| **trestbps** | Continuous | Resting blood pressure | mm Hg |
+| **chol** | Continuous | Serum cholesterol | mg/dl |
+| **fbs** | Categorical | Fasting blood sugar > 120 mg/dl | 1: true; 0: false |
+| **restecg** | Categorical | Resting ECG results | 0: normal, 1: ST-T wave abnormality, 2: LV hypertrophy |
+| **thalach** | Continuous | Max heart rate achieved | beats per minute |
+| **exang** | Categorical | Exercise induced angina | 1: yes; 0: no |
+| **oldpeak** | Continuous | ST depression | Induced by exercise relative to rest |
+| **slope** | Categorical | Peak exercise ST segment slope | 1: upsloping, 2: flat, 3: downsloping |
+| **ca** | Categorical | Number of major vessels | 0-3 colored by flourosopy |
+| **thal** | Categorical | Thallium stress test | 3: normal, 6: fixed defect, 7: reversible defect |
+| **outcome** | Label | Heart Disease Diagnosis | Presence (1-4) or Absence (0) |
+
 
 ## Dataset Information
-The analysis files for the UCI (University of California Irvine) dataset are located in the /uci folder.
+The analysis files and worked-out examples for the UCI (University of California Irvine) heart disease dataset are located in the `/uci` folder. This directory includes both the interactive research notebooks (.ipynb) and static reports (.html).
