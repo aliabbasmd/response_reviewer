@@ -26,3 +26,6 @@ For reviewers who wish to inspect the final outputs without running the entire 3
 ---
 **Author:** Abbas S Ali MD MS FACC  
 **Contact:** [ali@aliorg.info](mailto:ali@aliorg.info)
+
+## Dataset Information
+The analysis files for the UCI (University of California Irvine) dataset are located in the /uci folder.
